@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://use.fontawesome.com/0c068a9452.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css"
+        integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar-menu">
+            <div class="logo">
+                <p>Telebot.org</p>
+            </div>
+            <ul class="menu">
+                <li class="menu-link"><a class="button-menu active fas fa-home" href="#">Главная</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-bars" href="#" onclick="load_channels()">Каналы</a>
+                </li>
+                <li class="menu-link"><a class="button-menu fab fa-telegram-plane" href="#posts">Посты</a></li>
+                <li class="menu-link"><a class="button-menu fab fa-android" href="#bots">Боты</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-binoculars" href="#tracking">Отслеживание</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-trophy" href="#raffles">Розыгрыши</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-chart-line" href="#lecture-hallts">Аудитория</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-font" href="#telegraph">Telegraph</a></li>
+                <li class="menu-link"><a class="button-menu fas fa-life-ring" href="#spy-stories">Spy Stories</a></li>
+            </ul>
+        </div>
+        <div class="conteiner-content">
+            <div class="top-menu">
+                <div class="search ">
+                    <form class="find" action="#" method="POST">
+                        <label class="fa fa-search" aria-hidden="true">
+                            <input type="text" name="search" placeholder="Введите ссылку/username">
+                        </label>
+                    </form>
+                </div>
+                <div class="count">
+                    <p class="balance">Баланс
+                        <span class="mony-balance fas fa-ruble-sign">61 544 </span>
+                    </p>
+                    <div class="user fas fa-question"></div>
+                </div>
+
+            </div>
+            <div class="content" id="content">
+                <div class="home-statistics">
+                    <h2>Статистика</h2>
+                    <div class="home-statistics-info">
+                        <div class="home-chenal">
+                            <h3>Каналы</h3>
+                            <div>
+                                <p>Просмотров на пост</p>
+                            </div>
+                            <div></div>
+                        </div>
+                        <!--  <div>
+                        <canvas id="myChart"></canvas>
+                    </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    <script src="js/chart.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
